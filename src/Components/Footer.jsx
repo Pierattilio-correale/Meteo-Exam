@@ -1,5 +1,4 @@
-import { Navbar, Container, NavDropdown, Nav, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = function () {
   return (
@@ -9,148 +8,136 @@ const Footer = function () {
       </h4>
       <Container>
         <Row className="g-2">
-          <Col className="col-6 col-md-4 col-lg-3 mb-3  ">
-            <Link
+          <Col className="col-6 col-md-4 col-lg-3 mb-3">
+            <a
               className="textspecial text-decoration-none"
-              to="/Meteodetails/Ancona"
+              href="/Meteodetails/Ancona"
             >
               Ancona
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Brescia"
+              href="/Meteodetails/Brescia"
             >
               Brescia
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Ferrara"
+              href="/Meteodetails/Ferrara"
             >
               Ferrara
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Livorno"
+              href="/Meteodetails/Livorno"
             >
               Livorno
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Napoli"
+              href="/Meteodetails/Napoli"
             >
               Napoli
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Perugia"
+              href="/Meteodetails/Perugia"
             >
               Perugia
-            </Link>
+            </a>
           </Col>
-          <Col className="col-6 col-md-4 col-lg-3 mb-3 ">
-            <Link
-              className="dropdown-item textspecial"
-              to="/Meteodetails/Aosta"
-            >
+          <Col className="col-6 col-md-4 col-lg-3 mb-3">
+            <a className="dropdown-item textspecial" href="/Meteodetails/Aosta">
               Aosta
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Cagliari"
+              href="/Meteodetails/Cagliari"
             >
               Cagliari
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Messina"
+              href="/Meteodetails/Messina"
             >
               Messina
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Paternò"
+              href="/Meteodetails/Paternò"
             >
               Paternò
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Reggio Calabria"
+              href="/Meteodetails/Reggio Calabria"
             >
               Reggio Calabria
-            </Link>
-            <Link
-              className="dropdown-item textspecial"
-              to="/Meteodetails/Siena"
-            >
+            </a>
+            <a className="dropdown-item textspecial" href="/Meteodetails/Siena">
               Siena
-            </Link>
+            </a>
           </Col>
-          <Col className="col-6 col-md-4 col-lg-3 mb-3 ">
-            <Link className="dropdown-item textspecial" to="/Meteodetails/Bari">
+          <Col className="col-6 col-md-4 col-lg-3 mb-3">
+            <a className="dropdown-item textspecial" href="/Meteodetails/Bari">
               Bari
-            </Link>
-            <Link className="dropdown-item textspecial" to="/Meteodetails/Roma">
+            </a>
+            <a className="dropdown-item textspecial" href="/Meteodetails/Roma">
               Roma
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Milano"
+              href="/Meteodetails/Milano"
             >
               Milano
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Padova"
+              href="/Meteodetails/Padova"
             >
               Padova
-            </Link>
-            <Link className="dropdown-item textspecial" to="/Meteodetails/Pisa">
+            </a>
+            <a className="dropdown-item textspecial" href="/Meteodetails/Pisa">
               Pisa
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Taranto"
+              href="/Meteodetails/Taranto"
             >
               Taranto
-            </Link>
+            </a>
           </Col>
           <Col className="col-12 col-xl-2 col-md-4 col-xs-6 col-lg-3">
-            <Link
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Bologna"
+              href="/Meteodetails/Bologna"
             >
               Bologna
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Catanzaro"
+              href="/Meteodetails/Catanzaro"
             >
               Catanzaro
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Genova"
+              href="/Meteodetails/Genova"
             >
               Genova
-            </Link>
-            <Link
-              className="dropdown-item textspecial"
-              to="/Meteodetails/Monza"
-            >
+            </a>
+            <a className="dropdown-item textspecial" href="/Meteodetails/Monza">
               Monza
-            </Link>
-            <Link
+            </a>
+            <a
               className="dropdown-item textspecial"
-              to="/Meteodetails/Torino"
+              href="/Meteodetails/Torino"
             >
               Torino
-            </Link>
-            <Link
-              className="dropdown-item textspecial"
-              to="/Meteodetails/Parma"
-            >
+            </a>
+            <a className="dropdown-item textspecial" href="/Meteodetails/Parma">
               Parma
-            </Link>
+            </a>
           </Col>
         </Row>
       </Container>
@@ -167,12 +154,10 @@ const Footer = function () {
               <Col className="col-3">
                 <i className="bi bi-instagram ms-2"></i>
               </Col>
-
               <Col className="col-3">
                 <i className="bi bi-telegram ms-2"></i>
               </Col>
             </Row>
-
             <Row className="g-3 mt-3">
               <Col className="mt-3">
                 <Col className="mt-3">
