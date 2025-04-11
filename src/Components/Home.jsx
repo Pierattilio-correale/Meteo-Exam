@@ -30,7 +30,7 @@ const Home = function () {
                         alt="meteo"
                       />
                     </div>
-                    <div>
+                    <div className="d-none d-md-block">
                       <img style={{ height: 100 }} src={notizie} alt="meteo" />{" "}
                     </div>
                   </div>
