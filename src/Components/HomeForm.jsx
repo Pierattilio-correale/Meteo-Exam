@@ -21,12 +21,17 @@ const HomeForm = function () {
                     type="text"
                     value={inputCity}
                     placeholder="Cerca qui il meteo della tua città"
-                    onChange={(e) => setInputCity(e.target.value)}
+                    onChange={(e) => {
+                      setInputCity(e.target.value);
+                    }}
                   />
                   <Button
                     variant="warning"
                     className="ms-2"
-                    onClick={() => setSearchedCity(inputCity)}
+                    onClick={() => {
+                      localStorage.setItem("cercati", inputCity);
+                      setSearchedCity(inputCity);
+                    }}
                   >
                     <i className="bi bi-search cursorpointer fs-4"></i>
                   </Button>
