@@ -9,6 +9,7 @@ import HomeForm from "./Components/HomeForm";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import MeteoDetails from "./Components/MeteoDetails";
+import NotFound from "./Components/NotFound";
 
 function App() {
   return (
@@ -19,12 +20,13 @@ function App() {
 
           <div className=" flex-grow-1">
             <Routes>
-              <Route element={<HomeForm />} path="/" />
+              <Route element={<Home />} path="/" />
 
               <Route element={<MeteoDetails />} path="/Meteodetails/:meteoId" />
+              <Route element={<NotFound />} path="*" />
             </Routes>
           </div>
-          <Home />
+
           <div className="bg-warning mt-3">
             <Footer />
           </div>

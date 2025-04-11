@@ -6,12 +6,14 @@ import NapoliImg from "../../src/assets/Napoli.jpg";
 import TorinoImg from "../../src/assets/Torino.webp";
 import RomaImg from "../../src/assets/Roma.jpg";
 import { useNavigate } from "react-router-dom";
+import HomeForm from "./HomeForm";
 
 const Home = function () {
   const navigate = useNavigate();
 
   return (
     <>
+      <HomeForm />
       <Container>
         <Row className="justify-content-center g-4">
           <Col className="col-12 col-xl-6">
